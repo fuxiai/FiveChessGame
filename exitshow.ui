@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExitShow</class>
+ <widget class="QDialog" name="ExitShow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>194</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="confirmBtn">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>隶书</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image:url(:/images/btnBG.png);padding:0px;border:none}
+QPushButton:hover{border-image:url(:/images/btnBG_hover.png)}
+QPushButton:pressed{border-image:url(:/images/btnBG_press.png)}
+QPushButton:focus:hover{border-image:url(:/images/btnBG_hover.png)}
+QPushButton:focus:pressed{border-image:url(:/images/btnBG_press.png)}
+QPushButton:disabled{border-image:url(:/images/btnBG_disable.png)}
+
+</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>隶书</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image:url(:/images/btnBG.png);padding:0px;border:none}
+QPushButton:hover{border-image:url(:/images/btnBG_hover.png)}
+QPushButton:pressed{border-image:url(:/images/btnBG_press.png)}
+QPushButton:focus:hover{border-image:url(:/images/btnBG_hover.png)}
+QPushButton:focus:pressed{border-image:url(:/images/btnBG_press.png)}
+QPushButton:disabled{border-image:url(:/images/btnBG_disable.png)}
+
+</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

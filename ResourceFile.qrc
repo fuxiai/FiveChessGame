@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/black.png</file>
+        <file>images/chessBoard.jpg</file>
+        <file>images/white.png</file>
+        <file>images/backGround.jpg</file>
+        <file>images/computer.png</file>
+        <file>images/fail.png</file>
+        <file>images/player.png</file>
+        <file>images/win.png</file>
+        <file>images/btnBG.png</file>
+        <file>images/title.jpg</file>
+        <file>images/btnBG_hover.png</file>
+        <file>images/btnBG_press.png</file>
+        <file>images/btnBG_disable.png</file>
+        <file>images/backGround2.jpg</file>
+        <file>images/backGround3.png</file>
+        <file>images/backGround4.png</file>
+        <file>images/backGround5.png</file>
+        <file>sound/win.mp3</file>
+        <file>sound/clock.mp3</file>
+        <file>sound/press.mp3</file>
+        <file>sound/start.mp3</file>
+    </qresource>
+</RCC>
